@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "468705049982",
+    "project_id": "faribase-acd3f",
+    "storage_bucket": "faribase-acd3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468705049982:android:40ab09e9dfd65abd3ac72f",
+        "android_client_info": {
+          "package_name": "com.example.notifaction_crybto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7w0Jd1ZOEWtuWWNa0r4zTfiUCc7zUB4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468705049982:android:bb55079e6bb54b563ac72f",
+        "android_client_info": {
+          "package_name": "com.example.sql_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7w0Jd1ZOEWtuWWNa0r4zTfiUCc7zUB4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
