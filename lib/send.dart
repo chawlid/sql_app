@@ -234,7 +234,7 @@ class _SendState extends State<Send> {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
                                 content: Text(
-                                  'Please close the APP to recive notifications',
+                                  'You will receive notifications every $selectedTime minutes',
                                 ),
                                 duration: Duration(seconds: 3),
                                 action: SnackBarAction(
