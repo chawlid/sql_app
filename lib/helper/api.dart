@@ -23,13 +23,15 @@ Future<bool> getConnectionApi() async {
   // Update with your FastAPI server URL
 
   try {
-    String urlIP = await getHost();
-    final response = await http.get(
-      Uri.parse(urlIP),
+    String urlIP = 'https://crypto-hazel-eight.vercel.app';
+    //String urlIP = await getHost();
+
+    final response = await http.get(Uri.parse(urlIP));
+    /*  Uri.parse(urlIP),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
-    );
+    );*/
 
     if (response.statusCode == 200) {
       final responseData = jsonDecode(response.body);

@@ -19,7 +19,8 @@ Future<Connection> _getConnection() async {
 
 Future<bool> insertToken(String token) async {
   bool connectApi = await getConnectionApi();
-
+  print(token);
+  
   if (connectApi == false) {
     print('Connection to API failed!');
     return false;
